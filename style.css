@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: "Sugar Peachy";
+    src: url(./assets/font/Sugar-Peachy-Black.woff2);
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Sugar Peachy";
+    src: url(./assets/font/Sugar-Peachy-Medium.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Quick Sand";
+    src: url(./assets/font/Quicksand-Bold.woff2);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Quick Sand";
+    src: url(./assets/font/Quicksand-Medium.woff2);
+    font-weight: 500;
+}
+
+
+body {
+    font-family: "Quick Sand";
+}
