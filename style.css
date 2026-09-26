@@ -24,3 +24,52 @@
 body {
     font-family: "Quick Sand";
 }
+.title {
+  position: relative;
+  width: fit-content;
+
+  margin: 0px auto;
+
+  font-family: "Sugar Peachy", sans-serif;
+  font-size: clamp(50px, 7vw, 100px);
+  line-height: 0.9;
+  z-index: 10;
+
+  text-align: center;
+}
+
+/* Gray shadow */
+.title-shadow {
+  position: absolute;
+  inset: 0;
+
+  color: #aaa99e;
+  opacity: 0.5;
+  transform: translate(0px, 20px);
+}
+
+
+/* BLACK OUTER BORDER */
+.title-border {
+  position: absolute;
+  inset: 0;
+
+  color: #000;
+
+  -webkit-text-stroke: 25px #000;
+
+  paint-order: stroke fill;
+}
+
+
+/* WHITE BORDER + BLACK TEXT */
+.title-text {
+  position: relative;
+  z-index: 2;
+
+  color: #000;
+
+  -webkit-text-stroke: 20px #fff;
+
+  paint-order: stroke fill;
+}
